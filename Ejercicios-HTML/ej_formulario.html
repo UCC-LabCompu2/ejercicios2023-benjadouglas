@@ -19,25 +19,36 @@
 
 <h3>Suscribase a Nuestro Portal de Noticias! Crear una cuenta es rápido!</h3>
 Nombre:
+<input type="text" name="nombre"/><br>
 Apellido:
-Sexo: Masculino Femenino
+<input type="text" name="apellido"/><br>
+Sexo: <br>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
 Edad:
+<input type="number" name="points" min="0" max="100" step="10" value="30">
 Email:
+<input type="email" name="email"> <br>
 Usuario:
+<input type="text" name="usuario"/><br>
 Password:
+<input type="password" name="password"/><br>
 Confirmar Password:
-
-Tipo de servicio: Free / Standard / Premium
-Tema:
-Política
-Negocios
-Tecnología
-Salud
+<input type="password" name="password"/><br>
+Tipo de servicio: 
+<input type="radio" name="servicio" value="free" checked> Free<br>
+<input type="radio" name="servicio" value="standard"> Standard<br>
+<input type="radio" name="servicio" value="premium"> Premium<br>
+Tema:<br>
+<input type="checkbox" name="tema1" value="Política"> Política
+<input type="checkbox" name="tema2" value="Negocios"> Negocios
+<input type="checkbox" name="tema3" value="Tecnología"> Tecnología
+<input type="checkbox" name="tema4" value="Salud"> Salud <br>
 
 Agregue un comentario:
-
-Boton de Enviar
-
+<textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+<br>
+<button type="submit" name="enviar" value="enviar">enviar</button>
 
 </body>
 </html>
